@@ -26,16 +26,20 @@
  * Initialize application.
  ******************************************************************************/
 void ad5940int_handler (uint8_t intNo) {
-  app_assert(inteNo == 0, "Invalid interrupt number: %d", intNo);
+  app_assert(intNo == 5, "Invalid interrupt number: %d", intNo);  // Check for interrupt 5
   ucInterrupted = 1;
-  GPIO_IntClear(1 << 0);
+  GPIO_IntClear(1 << 5);  // Clear interrupt 5
 }
 
 void ad5940int_init() {
+  printf("1\n");
   GPIOINT_Init();
-  GPIOINT_CallbackRegister(0, ad5940int_handler);
-  GPIO_ExtIntConfig(SL_EMLIB_GPIO_INIT_AD5940_INT_PORT, SL_EMLIB_GPIO_INIT_AD5940_INT_PIN, 0, false, true, true);
-  GPIO_IntEnable(1 << 0);
+  printf("2\n");
+  GPIOINT_CallbackRegister(5, ad5940int_handler);  // Use interrupt 5 for PC5
+  printf("3\n");
+  GPIO_ExtIntConfig(SL_EMLIB_GPIO_INIT_AD5940_INT_PORT, SL_EMLIB_GPIO_INIT_AD5940_INT_PIN, 5, false, true, true);  // Use interrupt 5
+  printf("4\n");
+  GPIO_IntEnable(1 << 5);  // Enable interrupt 5
   printf("Hello AD5940-Build Time:%s\n",__TIME__);
 }
 
