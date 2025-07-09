@@ -32,13 +32,9 @@ void ad5940int_handler (uint8_t intNo) {
 }
 
 void ad5940int_init() {
-  printf("1\n");
   GPIOINT_Init();
-  printf("2\n");
   GPIOINT_CallbackRegister(5, ad5940int_handler);  // Use interrupt 5 for PC5
-  printf("3\n");
   GPIO_ExtIntConfig(SL_EMLIB_GPIO_INIT_AD5940_INT_PORT, SL_EMLIB_GPIO_INIT_AD5940_INT_PIN, 5, false, true, true);  // Use interrupt 5
-  printf("4\n");
   GPIO_IntEnable(1 << 5);  // Enable interrupt 5
   printf("Hello AD5940-Build Time:%s\n",__TIME__);
 }
