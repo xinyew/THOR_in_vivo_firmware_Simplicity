@@ -14,17 +14,43 @@
  * sections of the MSLA applicable to Source Code.
  *
  ******************************************************************************/
+#include "app_assert.h"
+#include "gpiointerrupt.h"
+#include "sl_emlib_gpio_init_AD5940_INT_config.h"
+#include "app.h"
+#include <stdio.h>
+
+
+// Define app_assert if not available
+#ifndef app_assert
+#define app_assert(condition) assert(condition)
+#endif
+
 
 /***************************************************************************//**
  * Initialize application.
  ******************************************************************************/
-void app_init(void)
-{
+void ad5940int_handler (uint8_t intNo) {
+  app_assert(intNo == 0);
+  ucInterrupted = 1;
+  GPIO_IntClear(1 << 0);
 }
+
+void ad5940int_init() {
+  GPIOINT_Init();
+  GPIOINT_CallbackRegister(0, ad5940int_handler);
+  GPIO_ExtIntConfig(SL_EMLIB_GPIO_INIT_AD5940_INT_PORT, SL_EMLIB_GPIO_INIT_AD5940_INT_PIN, 0, false, true, true);
+  GPIO_IntEnable(1 << 0);
+  printf("Hello AD5940-Build Time:%s\n",__TIME__);
+}
+
 
 /***************************************************************************//**
  * App ticking function.
  ******************************************************************************/
 void app_process_action(void)
 {
+  sl_udelay_wait(20000);
+  AD5940_Init();
+  AD5940_CV_Main();
 }

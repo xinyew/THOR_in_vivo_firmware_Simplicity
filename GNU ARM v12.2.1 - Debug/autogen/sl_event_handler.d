@@ -65,6 +65,7 @@ autogen/sl_event_handler.o: ../autogen/sl_event_handler.c \
  c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\service\device_init\inc\sl_device_init_dcdc.h \
  c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\service\device_init\inc\sl_device_init_clocks.h \
  c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\service\device_init\inc\sl_device_init_emu.h \
+ c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\service\sleeptimer\inc\sl_sleeptimer.h \
  c:\users\xinye\simplicitystudio\sdks\gecko_sdk\app\common\util\app_log\app_log.h \
  c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\sl_iostream.h \
  c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_enum.h \
@@ -73,7 +74,22 @@ autogen/sl_event_handler.o: ../autogen/sl_event_handler.c \
  c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\sl_iostream.h \
  C:\Users\xinye\SimplicityStudio\v5_workspace\THOR_in_vivo_firmware_test\config/app_log_config.h \
  c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\driver\debug\inc\sl_debug_swo.h \
+ c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\emlib\init\gpio_simple\sl_emlib_gpio_simple_init.h \
+ c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\emdrv\gpiointerrupt\inc\gpiointerrupt.h \
+ c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h \
  c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\sl_iostream_stdlib_config.h \
+ ../autogen/sl_spidrv_instances.h \
+ c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\emdrv\spidrv\inc\spidrv.h \
+ c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_cmu.h \
+ c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_cmu_compat.h \
+ c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h \
+ c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\sli_em_cmu.h \
+ c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\emdrv\dmadrv\inc\dmadrv.h \
+ c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\emdrv\common\inc\ecode.h \
+ c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_ldma.h \
+ C:\Users\xinye\SimplicityStudio\v5_workspace\THOR_in_vivo_firmware_test\config/dmadrv_config.h \
+ C:\Users\xinye\SimplicityStudio\v5_workspace\THOR_in_vivo_firmware_test\config/spidrv_config.h \
+ c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_slist.h \
  ../autogen/sl_iostream_init_instances.h
 c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_gcc_preinclude.h:
 ../autogen/sl_event_handler.h:
@@ -141,6 +157,7 @@ c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_status.h:
 c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\service\device_init\inc\sl_device_init_dcdc.h:
 c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\service\device_init\inc\sl_device_init_clocks.h:
 c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\service\device_init\inc\sl_device_init_emu.h:
+c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\service\sleeptimer\inc\sl_sleeptimer.h:
 c:\users\xinye\simplicitystudio\sdks\gecko_sdk\app\common\util\app_log\app_log.h:
 c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\sl_iostream.h:
 c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_enum.h:
@@ -149,5 +166,20 @@ c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\sl_
 c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\sl_iostream.h:
 C:\Users\xinye\SimplicityStudio\v5_workspace\THOR_in_vivo_firmware_test\config/app_log_config.h:
 c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\driver\debug\inc\sl_debug_swo.h:
+c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\emlib\init\gpio_simple\sl_emlib_gpio_simple_init.h:
+c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\emdrv\gpiointerrupt\inc\gpiointerrupt.h:
+c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h:
 c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\sl_iostream_stdlib_config.h:
+../autogen/sl_spidrv_instances.h:
+c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\emdrv\spidrv\inc\spidrv.h:
+c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_cmu.h:
+c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_cmu_compat.h:
+c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h:
+c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\sli_em_cmu.h:
+c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\emdrv\dmadrv\inc\dmadrv.h:
+c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\emdrv\common\inc\ecode.h:
+c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_ldma.h:
+C:\Users\xinye\SimplicityStudio\v5_workspace\THOR_in_vivo_firmware_test\config/dmadrv_config.h:
+C:\Users\xinye\SimplicityStudio\v5_workspace\THOR_in_vivo_firmware_test\config/spidrv_config.h:
+c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_slist.h:
 ../autogen/sl_iostream_init_instances.h:

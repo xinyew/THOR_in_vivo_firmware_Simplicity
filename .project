@@ -261,6 +261,16 @@
 			<locationURI>STUDIO_SDK_LOC/platform/emlib/src/em_usart.c</locationURI>
 		</link>
 		<link>
+			<name>gecko_sdk_4.4.5/app/common/util/app_assert/app_assert.h</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/app/common/util/app_assert/app_assert.h</locationURI>
+		</link>
+		<link>
+			<name>gecko_sdk_4.4.5/app/common/util/app_assert/sl_app_assert.h</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/app/common/util/app_assert/sl_app_assert.h</locationURI>
+		</link>
+		<link>
 			<name>gecko_sdk_4.4.5/app/common/util/app_log/app_log.c</name>
 			<type>1</type>
 			<locationURI>STUDIO_SDK_LOC/app/common/util/app_log/app_log.c</locationURI>
@@ -351,6 +361,16 @@
 			<locationURI>STUDIO_SDK_LOC/platform/emdrv/dmadrv/src/dmadrv.c</locationURI>
 		</link>
 		<link>
+			<name>gecko_sdk_4.4.5/platform/emdrv/gpiointerrupt/inc/gpiointerrupt.h</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/platform/emdrv/gpiointerrupt/inc/gpiointerrupt.h</locationURI>
+		</link>
+		<link>
+			<name>gecko_sdk_4.4.5/platform/emdrv/gpiointerrupt/src/gpiointerrupt.c</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/platform/emdrv/gpiointerrupt/src/gpiointerrupt.c</locationURI>
+		</link>
+		<link>
 			<name>gecko_sdk_4.4.5/platform/emdrv/spidrv/inc/spidrv.h</name>
 			<type>1</type>
 			<locationURI>STUDIO_SDK_LOC/platform/emdrv/spidrv/inc/spidrv.h</locationURI>
@@ -359,6 +379,11 @@
 			<name>gecko_sdk_4.4.5/platform/emdrv/spidrv/src/spidrv.c</name>
 			<type>1</type>
 			<locationURI>STUDIO_SDK_LOC/platform/emdrv/spidrv/src/spidrv.c</locationURI>
+		</link>
+		<link>
+			<name>gecko_sdk_4.4.5/platform/emlib/init/gpio_simple/sl_emlib_gpio_simple_init.h</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/platform/emlib/init/gpio_simple/sl_emlib_gpio_simple_init.h</locationURI>
 		</link>
 		<link>
 			<name>gecko_sdk_4.4.5/platform/service/device_init/inc/sl_device_init_clocks.h</name>
@@ -489,6 +514,21 @@
 			<name>gecko_sdk_4.4.5/platform/service/system/src/sl_system_process_action.c</name>
 			<type>1</type>
 			<locationURI>STUDIO_SDK_LOC/platform/service/system/src/sl_system_process_action.c</locationURI>
+		</link>
+		<link>
+			<name>gecko_sdk_4.4.5/platform/service/udelay/inc/sl_udelay.h</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/platform/service/udelay/inc/sl_udelay.h</locationURI>
+		</link>
+		<link>
+			<name>gecko_sdk_4.4.5/platform/service/udelay/src/sl_udelay.c</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/platform/service/udelay/src/sl_udelay.c</locationURI>
+		</link>
+		<link>
+			<name>gecko_sdk_4.4.5/platform/service/udelay/src/sl_udelay_armv6m_gcc.S</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/platform/service/udelay/src/sl_udelay_armv6m_gcc.S</locationURI>
 		</link>
 		<link>
 			<name>gecko_sdk_4.4.5/platform/Device/SiliconLabs/EFR32BG27/Include/efr32bg27_acmp.h</name>

@@ -26,6 +26,10 @@
 #include "sl_system_process_action.h"
 #endif // SL_CATALOG_KERNEL_PRESENT
 
+#include "efr32bg27c320f768gj39.h"
+#include "ad5940.h"
+
+
 int main(void)
 {
   // Initialize Silicon Labs device, system, service(s) and protocol stack(s).
@@ -48,7 +52,8 @@ int main(void)
 
     // Application process.
     app_process_action();
-    printf("!!\n");
+    break;
+
 
 #if defined(SL_CATALOG_POWER_MANAGER_PRESENT)
     // Let the CPU go to sleep if the system allows it.

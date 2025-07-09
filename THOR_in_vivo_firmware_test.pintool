@@ -4,6 +4,15 @@
     <property object="DefaultMode" propertyId="mode.diagramLocation" value="100, 100"/>
     <property object="GPIO" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_DEBUG%T%sl_debug_swo_config.h"/>
     <property object="GPIO" propertyId="ABPeripheral.included" value="true"/>
+    <property object="PC02" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_EMLIB_GPIO_INIT_AD5940_RST%T%sl_emlib_gpio_init_AD5940_RST_config.h"/>
+    <property object="PC02" propertyId="pin.name" value="AD5940_RST"/>
+    <property object="PC02" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PC04" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_EMLIB_GPIO_INIT_AD5940_CS%T%sl_emlib_gpio_init_AD5940_CS_config.h"/>
+    <property object="PC04" propertyId="pin.name" value="AD5940_CS"/>
+    <property object="PC04" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PC05" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_EMLIB_GPIO_INIT_AD5940_INT%T%sl_emlib_gpio_init_AD5940_INT_config.h"/>
+    <property object="PC05" propertyId="pin.name" value="AD5940_INT"/>
+    <property object="PC05" propertyId="pin.reserve" value="Reserved"/>
     <property object="PORTIO" propertyId="portio.gpio.enable.swv" value="Enabled"/>
     <property object="PORTIO" propertyId="portio.usart0.enable.clk" value="Enabled"/>
     <property object="PORTIO" propertyId="portio.usart0.enable.rx" value="Enabled"/>

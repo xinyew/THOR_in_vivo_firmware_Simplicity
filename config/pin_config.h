@@ -149,6 +149,27 @@
 #define _PIN                                     0
 #endif
 
+#ifndef AD5940_RST_PORT                         
+#define AD5940_RST_PORT                          gpioPortC
+#endif
+#ifndef AD5940_RST_PIN                          
+#define AD5940_RST_PIN                           2
+#endif
+
+#ifndef AD5940_CS_PORT                          
+#define AD5940_CS_PORT                           gpioPortC
+#endif
+#ifndef AD5940_CS_PIN                           
+#define AD5940_CS_PIN                            4
+#endif
+
+#ifndef AD5940_INT_PORT                         
+#define AD5940_INT_PORT                          gpioPortC
+#endif
+#ifndef AD5940_INT_PIN                          
+#define AD5940_INT_PIN                           5
+#endif
+
 // [CUSTOM_PIN_NAME]$
 
 #endif // PIN_CONFIG_H

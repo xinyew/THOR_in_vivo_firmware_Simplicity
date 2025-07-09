@@ -60,7 +60,8 @@ gecko_sdk_4.4.5/app/common/util/app_log/app_log.o: \
  C:\Users\xinye\SimplicityStudio\v5_workspace\THOR_in_vivo_firmware_test\autogen/sl_iostream_handles.h \
  c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\sl_iostream_swo.h \
  c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\sl_iostream.h \
- C:\Users\xinye\SimplicityStudio\v5_workspace\THOR_in_vivo_firmware_test\config/app_log_config.h
+ C:\Users\xinye\SimplicityStudio\v5_workspace\THOR_in_vivo_firmware_test\config/app_log_config.h \
+ c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\service\sleeptimer\inc\sl_sleeptimer.h
 c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_gcc_preinclude.h:
 c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_common.h:
 c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32bg27\include\em_device.h:
@@ -122,3 +123,4 @@ C:\Users\xinye\SimplicityStudio\v5_workspace\THOR_in_vivo_firmware_test\autogen/
 c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\sl_iostream_swo.h:
 c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\service\iostream\inc\sl_iostream.h:
 C:\Users\xinye\SimplicityStudio\v5_workspace\THOR_in_vivo_firmware_test\config/app_log_config.h:
+c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\service\sleeptimer\inc\sl_sleeptimer.h:
