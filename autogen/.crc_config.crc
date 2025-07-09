@@ -9,6 +9,7 @@ sl_device_init_emu_config.h=622680131
 sl_emlib_gpio_init_AD5940_CS_config.h=129240211
 sl_emlib_gpio_init_AD5940_INT_config.h=-97480973
 sl_emlib_gpio_init_AD5940_RST_config.h=1861514308
+sl_emlib_gpio_init_MUX_EN_config.h=1840758769
 sl_iostream_swo_config.h=-928064663
 sl_memory_config.h=687128566
 sl_sleeptimer_config.h=1360009810

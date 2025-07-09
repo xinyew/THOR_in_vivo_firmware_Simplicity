@@ -5,6 +5,7 @@ autogen/sl_emlib_gpio_simple_init.o: \
  C:\Users\xinye\SimplicityStudio\v5_workspace\THOR_in_vivo_firmware_test\config/sl_emlib_gpio_init_AD5940_CS_config.h \
  C:\Users\xinye\SimplicityStudio\v5_workspace\THOR_in_vivo_firmware_test\config/sl_emlib_gpio_init_AD5940_INT_config.h \
  C:\Users\xinye\SimplicityStudio\v5_workspace\THOR_in_vivo_firmware_test\config/sl_emlib_gpio_init_AD5940_RST_config.h \
+ C:\Users\xinye\SimplicityStudio\v5_workspace\THOR_in_vivo_firmware_test\config/sl_emlib_gpio_init_MUX_EN_config.h \
  c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h \
  c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32bg27\include\em_device.h \
  c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32bg27\include\efr32bg27c320f768gj39.h \
@@ -73,6 +74,7 @@ c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\emlib\init\gpio_simple\s
 C:\Users\xinye\SimplicityStudio\v5_workspace\THOR_in_vivo_firmware_test\config/sl_emlib_gpio_init_AD5940_CS_config.h:
 C:\Users\xinye\SimplicityStudio\v5_workspace\THOR_in_vivo_firmware_test\config/sl_emlib_gpio_init_AD5940_INT_config.h:
 C:\Users\xinye\SimplicityStudio\v5_workspace\THOR_in_vivo_firmware_test\config/sl_emlib_gpio_init_AD5940_RST_config.h:
+C:\Users\xinye\SimplicityStudio\v5_workspace\THOR_in_vivo_firmware_test\config/sl_emlib_gpio_init_MUX_EN_config.h:
 c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h:
 c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32bg27\include\em_device.h:
 c:\users\xinye\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32bg27\include\efr32bg27c320f768gj39.h:

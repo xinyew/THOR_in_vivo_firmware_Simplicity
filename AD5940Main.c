@@ -20,6 +20,8 @@ Analog Devices Software License Agreement.
 #include <stdint.h>
 #include <stdio.h>
 #include "ad5940.h"
+#include "em_gpio.h"
+#include "sl_emlib_gpio_init_MUX_EN_config.h"
 
 /**
    User could configure following parameters
@@ -239,23 +241,62 @@ void AD5940_CV_Main(void)
   }
 }
 
-void AD5940_GPIO_test(void) {
+
+void enMux(bool en)
+{
+  if (en) {
+      GPIO_PinModeSet(SL_EMLIB_GPIO_INIT_MUX_EN_PORT,
+                      SL_EMLIB_GPIO_INIT_MUX_EN_PIN,
+                      SL_EMLIB_GPIO_INIT_MUX_EN_MODE,
+                      1);
+  } else {
+      GPIO_PinModeSet(SL_EMLIB_GPIO_INIT_MUX_EN_PORT,
+                      SL_EMLIB_GPIO_INIT_MUX_EN_PIN,
+                      SL_EMLIB_GPIO_INIT_MUX_EN_MODE,
+                      0);
+  }
+}
+
+
+void AD5940_Set_Mux(short chan, bool en) {
+  if (chan < 0 || chan > 3)
+  {
+      printf("!!! Invalid mux channel number. Abort\n");
+      return;
+  }
+  if (!en)
+  {
+      printf("!!! Mux disabled. \n");
+      enMux(false);
+      return;
+  }
+  enMux(true);  // Commented out to avoid GPIO compilation issues
+  int A0 = chan & 1;
+  int A1 = (chan >> 1) & 1;
+
 
   AGPIOCfg_Type pAgpioCfg;
-  pAgpioCfg.FuncSet = GP1_GPIO | GP3_GPIO | GP5_GPIO;
-  pAgpioCfg.OutputEnSet = AGPIO_Pin1 | AGPIO_Pin3 | AGPIO_Pin5;
+  pAgpioCfg.FuncSet = GP1_GPIO | GP3_GPIO;
+  pAgpioCfg.OutputEnSet = AGPIO_Pin1 | AGPIO_Pin3;
   pAgpioCfg.InputEnSet = 0;
   pAgpioCfg.PullEnSet = 0;
   pAgpioCfg.OutVal = 0;
   AD5940_AGPIOCfg(&pAgpioCfg);
 
-  //for (int i = 0; i < 3; i++)
-  while(1)
-  {
-    AD5940_Delay10us(100000);
-    AD5940_AGPIOSet(AGPIO_Pin1|AGPIO_Pin3 | AGPIO_Pin5);
-    AD5940_Delay10us(100000);
-    AD5940_AGPIOClr(AGPIO_Pin1|AGPIO_Pin3 | AGPIO_Pin5);
+  if (A1 && A0) {
+      AD5940_AGPIOSet(AGPIO_Pin1| AGPIO_Pin3);
+      printf("SET: 3\n");
+  } else if (A0 && !A1) {
+      AD5940_AGPIOSet(AGPIO_Pin3);
+      AD5940_AGPIOClr(AGPIO_Pin1);
+      printf("SET: 1\n");
+  } else if (A1 && !A0) {
+      AD5940_AGPIOSet(AGPIO_Pin1);
+      AD5940_AGPIOClr(AGPIO_Pin3);
+      printf("SET: 2\n");
+  } else {
+      AD5940_AGPIOClr(AGPIO_Pin1|AGPIO_Pin3);
+      printf("SET: 0\n");
   }
- }
-
+//  AD5940_AGPIOClr(AGPIO_Pin1|AGPIO_Pin3 | AGPIO_Pin5);
+}

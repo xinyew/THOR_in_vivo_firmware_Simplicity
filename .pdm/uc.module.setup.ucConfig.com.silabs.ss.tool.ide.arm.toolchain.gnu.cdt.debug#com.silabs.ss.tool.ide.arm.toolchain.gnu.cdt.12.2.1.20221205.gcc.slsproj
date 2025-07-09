@@ -15,6 +15,7 @@
     <file name="sl_emlib_gpio_init_AD5940_CS_config.h" generated="true" linked="false"/>
     <file name="sl_emlib_gpio_init_AD5940_INT_config.h" generated="true" linked="false"/>
     <file name="sl_emlib_gpio_init_AD5940_RST_config.h" generated="true" linked="false"/>
+    <file name="sl_emlib_gpio_init_MUX_EN_config.h" generated="true" linked="false"/>
     <file name="app_assert_config.h" generated="true" linked="false"/>
   </folder>
   <includePath uri="studio:/project/config"/>

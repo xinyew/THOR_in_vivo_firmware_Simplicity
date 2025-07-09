@@ -50,7 +50,9 @@ void app_init(void)
  ******************************************************************************/
 void app_process_action(void)
 {
+
   sl_udelay_wait(20000);
   AD5940_Init();
-  AD5940_CV_Main();
+  AD5940_Set_Mux(0, true);
+  AD5940_SWV_Main();
 }

@@ -170,6 +170,13 @@
 #define AD5940_INT_PIN                           5
 #endif
 
+#ifndef MUX_EN_PORT                             
+#define MUX_EN_PORT                              gpioPortC
+#endif
+#ifndef MUX_EN_PIN                              
+#define MUX_EN_PIN                               6
+#endif
+
 // [CUSTOM_PIN_NAME]$
 
 #endif // PIN_CONFIG_H
