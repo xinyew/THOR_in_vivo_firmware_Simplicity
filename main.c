@@ -29,7 +29,6 @@
 #include "efr32bg27c320f768gj39.h"
 #include "ad5940.h"
 
-
 int main(void)
 {
   // Initialize Silicon Labs device, system, service(s) and protocol stack(s).
@@ -52,6 +51,7 @@ int main(void)
 
     // Application process.
     app_process_action();
+
     break;
 
 

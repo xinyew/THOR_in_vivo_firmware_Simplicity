@@ -17,6 +17,9 @@ Analog Devices Software License Agreement.
 #include "SqrWaveVoltammetry.h"
 #include "RampTest.h"
 #include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include "ad5940.h"
 
 /**
    User could configure following parameters
@@ -37,9 +40,9 @@ static int32_t RampShowResult(float *pData, uint32_t DataCount)
 {
   static uint32_t index;
   /* Print data*/
-  for(int i=0;i<DataCount;i++)
+  for(uint32_t i=0;i<DataCount;i++)
   {
-    printf("index:%d, %.10f\n", index++, pData[i]);
+    printf("index:%lu, %.10f\n", index++, pData[i]);
     //printf("%.3f\n",pData[i]);
     //index++;
     //i += 10;  /* Print though UART consumes too much time. */

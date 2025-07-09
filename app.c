@@ -21,17 +21,12 @@
 #include <stdio.h>
 
 
-// Define app_assert if not available
-#ifndef app_assert
-#define app_assert(condition) assert(condition)
-#endif
-
 
 /***************************************************************************//**
  * Initialize application.
  ******************************************************************************/
 void ad5940int_handler (uint8_t intNo) {
-  app_assert(intNo == 0);
+  app_assert(inteNo == 0, "Invalid interrupt number: %d", intNo);
   ucInterrupted = 1;
   GPIO_IntClear(1 << 0);
 }
@@ -44,6 +39,11 @@ void ad5940int_init() {
   printf("Hello AD5940-Build Time:%s\n",__TIME__);
 }
 
+void app_init(void)
+{
+  ad5940int_init();
+
+}
 
 /***************************************************************************//**
  * App ticking function.
