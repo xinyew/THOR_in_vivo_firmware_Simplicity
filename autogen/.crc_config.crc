@@ -1,0 +1,12 @@
+#CRC Codes for initially generated config files -- do not modify!
+app_log_config.h=-1893283838
+dmadrv_config.h=1207334949
+emlib_core_debug_config.h=-212744839
+sl_debug_swo_config.h=-1563780709
+sl_device_init_dcdc_config.h=-1652506127
+sl_device_init_emu_config.h=622680131
+sl_iostream_swo_config.h=-928064663
+sl_memory_config.h=687128566
+sl_sleeptimer_config.h=1360009810
+sl_spidrv_AD5940_SPI_config.h=-1856822569
+spidrv_config.h=112055036
