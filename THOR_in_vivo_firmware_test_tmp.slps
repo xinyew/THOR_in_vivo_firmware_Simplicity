@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <model:MDescriptors xmlns:model="http://www.silabs.com/ss/Studio.ecore">
-  <descriptors name="THOR_in_vivo_firmware_test">
+  <descriptors name="THOR_in_vivo_firmware_test_tmp">
     <properties key="projectCommon.sdkId" value="com.silabs.sdk.stack.super:4.4.5._842964491"/>
     <properties key="universalConfig.relativeWorkspacePath" value="..\THOR_in_vivo_firmware_test.slcw"/>
     <properties key="universalConfig.generationDirectory" value=""/>

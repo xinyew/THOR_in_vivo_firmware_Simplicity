@@ -1,6 +1,6 @@
 # Silicon Labs Project Configuration Tools: slcp, v0, Component selection file.
-project_name: THOR_in_vivo_firmware_test
-label: THOR_in_vivo_firmware_test
+project_name: THOR_in_vivo_firmware_test_tmp
+label: THOR_in_vivo_firmware_test_tmp
 description: |
   This example project shows an empty configuration that can be used as a starting point to add components and functionality.
 category: Example|Platform
