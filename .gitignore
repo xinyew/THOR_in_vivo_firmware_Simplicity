@@ -5,3 +5,5 @@
 *.map
 *.s37
 *.obj
+
+/THOR_in_vivo_firmware_CMake_cmake/build
