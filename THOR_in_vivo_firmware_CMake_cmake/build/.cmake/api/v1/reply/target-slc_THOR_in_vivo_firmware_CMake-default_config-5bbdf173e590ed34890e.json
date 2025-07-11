@@ -1,0 +1,1024 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/app/common/util/app_log/app_log.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/common/src/sl_assert.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/common/src/sl_slist.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/common/src/sl_syscalls.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/common/toolchain/src/sl_memory.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/Device/SiliconLabs/EFR32BG27/Source/startup_efr32bg27.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/Device/SiliconLabs/EFR32BG27/Source/system_efr32bg27.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/driver/debug/src/sl_debug_swo.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/emdrv/dmadrv/src/dmadrv.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/emdrv/gpiointerrupt/src/gpiointerrupt.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/emdrv/spidrv/src/spidrv.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/emlib/src/em_burtc.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/emlib/src/em_cmu.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/emlib/src/em_core.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/emlib/src/em_emu.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/emlib/src/em_eusart.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/emlib/src/em_gpio.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/emlib/src/em_ldma.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/emlib/src/em_msc.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/emlib/src/em_rtcc.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/emlib/src/em_system.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/emlib/src/em_timer.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/emlib/src/em_usart.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/service/device_init/src/sl_device_init_dcdc_s2.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/service/device_init/src/sl_device_init_emu_s2.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/service/device_init/src/sl_device_init_nvic.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/service/iostream/src/sl_iostream.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/service/iostream/src/sl_iostream_retarget_stdio.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/service/iostream/src/sl_iostream_stdlib_config.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/service/iostream/src/sl_iostream_swo.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/service/sleeptimer/src/sl_sleeptimer.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/service/sleeptimer/src/sl_sleeptimer_hal_burtc.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/service/sleeptimer/src/sl_sleeptimer_hal_prortc.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/service/sleeptimer/src/sl_sleeptimer_hal_timer.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/service/system/src/sl_system_init.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/service/system/src/sl_system_process_action.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/service/udelay/src/sl_udelay.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/service/udelay/src/sl_udelay_armv6m_gcc.S.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/THOR_in_vivo_firmware_CMake/app.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/THOR_in_vivo_firmware_CMake/autogen/sl_device_init_clocks.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/THOR_in_vivo_firmware_CMake/autogen/sl_emlib_gpio_simple_init.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/THOR_in_vivo_firmware_CMake/autogen/sl_event_handler.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/THOR_in_vivo_firmware_CMake/autogen/sl_iostream_handles.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/THOR_in_vivo_firmware_CMake/autogen/sl_spidrv_init.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/THOR_in_vivo_firmware_CMake/main.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/THOR_in_vivo_firmware_CMake/ad5940lib/ad5940.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/THOR_in_vivo_firmware_CMake/ad5940-examples/examples/AD5940_Ramp/RampTest.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/THOR_in_vivo_firmware_CMake/ad5940-examples/examples/AD5940_SqrWaveVoltammetry/SqrWaveVoltammetry.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/THOR_in_vivo_firmware_CMake/AD5940Main.c.obj"
+		},
+		{
+			"path" : "CMakeFiles/slc_THOR_in_vivo_firmware_CMake.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/THOR_in_vivo_firmware_CMake/EFR32_port.c.obj"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"target_compile_options",
+			"target_compile_definitions",
+			"target_include_directories",
+			"set_property"
+		],
+		"files" : 
+		[
+			"THOR_in_vivo_firmware_CMake.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 101,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 85,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 141,
+				"parent" : 2
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-std=c99"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-mcpu=cortex-m33"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-mfpu=fpv5-sp-d16"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-mfloat-abi=hard"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Os"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fomit-frame-pointer"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-imacros"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "sl_gcc_preinclude.h"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-mcmse"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "--specs=nano.specs"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-g"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "ADI_DEBUG=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "CHIPSEL_594X=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "DEBUG_EFM=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "EFR32BG27C320F768GJ39=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "SL_COMPONENT_CATALOG_PRESENT=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/v5_workspace/THOR_in_vivo_firmware_CMake/THOR_in_vivo_firmware_CMake_cmake/../config"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/v5_workspace/THOR_in_vivo_firmware_CMake/THOR_in_vivo_firmware_CMake_cmake/../autogen"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/v5_workspace/THOR_in_vivo_firmware_CMake/THOR_in_vivo_firmware_CMake_cmake/../."
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/v5_workspace/THOR_in_vivo_firmware_CMake/THOR_in_vivo_firmware_CMake_cmake/../ad5940lib"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/v5_workspace/THOR_in_vivo_firmware_CMake/THOR_in_vivo_firmware_CMake_cmake/../ad5940-examples/examples/AD5940_Ramp"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/v5_workspace/THOR_in_vivo_firmware_CMake/THOR_in_vivo_firmware_CMake_cmake/../ad5940-examples/examples/AD5940_SqrWaveVoltammetry"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/Device/SiliconLabs/EFR32BG27/Include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/app/common/util/app_assert"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/app/common/util/app_log"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/common/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/CMSIS/Core/Include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/driver/debug/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/service/device_init/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/emdrv/dmadrv/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/emdrv/common/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/emlib/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/emlib/init/gpio_simple"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/emdrv/gpiointerrupt/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/service/iostream/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/common/toolchain/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/service/system/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/service/sleeptimer/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/emdrv/spidrv/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/service/udelay/inc"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					7
+				],
+				"standard" : "99"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"backtrace" : 4,
+					"fragment" : "-mcpu=cortex-m33"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-mfpu=fpv5-sp-d16"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-mfloat-abi=hard"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-imacros"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "sl_gcc_preinclude.h"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-x"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "assembler-with-cpp"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "ADI_DEBUG=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "CHIPSEL_594X=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "DEBUG_EFM=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "EFR32BG27C320F768GJ39=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "SL_COMPONENT_CATALOG_PRESENT=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/v5_workspace/THOR_in_vivo_firmware_CMake/THOR_in_vivo_firmware_CMake_cmake/../config"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/v5_workspace/THOR_in_vivo_firmware_CMake/THOR_in_vivo_firmware_CMake_cmake/../autogen"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/v5_workspace/THOR_in_vivo_firmware_CMake/THOR_in_vivo_firmware_CMake_cmake/../."
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/v5_workspace/THOR_in_vivo_firmware_CMake/THOR_in_vivo_firmware_CMake_cmake/../ad5940lib"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/v5_workspace/THOR_in_vivo_firmware_CMake/THOR_in_vivo_firmware_CMake_cmake/../ad5940-examples/examples/AD5940_Ramp"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/v5_workspace/THOR_in_vivo_firmware_CMake/THOR_in_vivo_firmware_CMake_cmake/../ad5940-examples/examples/AD5940_SqrWaveVoltammetry"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/Device/SiliconLabs/EFR32BG27/Include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/app/common/util/app_assert"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/app/common/util/app_log"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/common/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/CMSIS/Core/Include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/driver/debug/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/service/device_init/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/emdrv/dmadrv/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/emdrv/common/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/emlib/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/emlib/init/gpio_simple"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/emdrv/gpiointerrupt/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/service/iostream/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/common/toolchain/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/service/system/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/service/sleeptimer/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/emdrv/spidrv/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/service/udelay/inc"
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				38
+			]
+		}
+	],
+	"id" : "slc_THOR_in_vivo_firmware_CMake::@6890427a1f51a3e7e1df",
+	"name" : "slc_THOR_in_vivo_firmware_CMake",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				38
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/app/common/util/app_log/app_log.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/common/src/sl_assert.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/common/src/sl_slist.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/common/src/sl_syscalls.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/common/toolchain/src/sl_memory.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/Device/SiliconLabs/EFR32BG27/Source/startup_efr32bg27.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/Device/SiliconLabs/EFR32BG27/Source/system_efr32bg27.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/driver/debug/src/sl_debug_swo.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/emdrv/dmadrv/src/dmadrv.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/emdrv/gpiointerrupt/src/gpiointerrupt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/emdrv/spidrv/src/spidrv.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/emlib/src/em_burtc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/emlib/src/em_cmu.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/emlib/src/em_core.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/emlib/src/em_emu.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/emlib/src/em_eusart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/emlib/src/em_gpio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/emlib/src/em_ldma.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/emlib/src/em_msc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/emlib/src/em_rtcc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/emlib/src/em_system.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/emlib/src/em_timer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/emlib/src/em_usart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/service/device_init/src/sl_device_init_dcdc_s2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/service/device_init/src/sl_device_init_emu_s2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/service/device_init/src/sl_device_init_nvic.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/service/iostream/src/sl_iostream.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/service/iostream/src/sl_iostream_retarget_stdio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/service/iostream/src/sl_iostream_stdlib_config.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/service/iostream/src/sl_iostream_swo.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/service/sleeptimer/src/sl_sleeptimer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/service/sleeptimer/src/sl_sleeptimer_hal_burtc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/service/sleeptimer/src/sl_sleeptimer_hal_prortc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/service/sleeptimer/src/sl_sleeptimer_hal_timer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/service/system/src/sl_system_init.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/service/system/src/sl_system_process_action.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/service/udelay/src/sl_udelay.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/xinye/SimplicityStudio/SDKs/gecko_sdk/platform/service/udelay/src/sl_udelay_armv6m_gcc.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/v5_workspace/THOR_in_vivo_firmware_CMake/app.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/v5_workspace/THOR_in_vivo_firmware_CMake/autogen/sl_device_init_clocks.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/v5_workspace/THOR_in_vivo_firmware_CMake/autogen/sl_emlib_gpio_simple_init.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/v5_workspace/THOR_in_vivo_firmware_CMake/autogen/sl_event_handler.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/v5_workspace/THOR_in_vivo_firmware_CMake/autogen/sl_iostream_handles.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/v5_workspace/THOR_in_vivo_firmware_CMake/autogen/sl_spidrv_init.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/v5_workspace/THOR_in_vivo_firmware_CMake/main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/v5_workspace/THOR_in_vivo_firmware_CMake/ad5940lib/ad5940.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/v5_workspace/THOR_in_vivo_firmware_CMake/ad5940-examples/examples/AD5940_Ramp/RampTest.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/v5_workspace/THOR_in_vivo_firmware_CMake/ad5940-examples/examples/AD5940_SqrWaveVoltammetry/SqrWaveVoltammetry.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/v5_workspace/THOR_in_vivo_firmware_CMake/AD5940Main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/xinye/SimplicityStudio/v5_workspace/THOR_in_vivo_firmware_CMake/EFR32_port.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

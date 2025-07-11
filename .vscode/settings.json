@@ -1,0 +1,9 @@
+{
+    "idf.pythonInstallPath": "/opt/homebrew/anaconda3/bin/python3",
+    "cmake.sourceDirectory": "/Users/xinye/SimplicityStudio/v5_workspace/THOR_in_vivo_firmware_CMake/THOR_in_vivo_firmware_CMake_cmake",
+    "files.associations": {
+        "app.h": "c",
+        "sl_component_catalog.h": "c",
+        "ad5940.h": "c"
+    }
+}

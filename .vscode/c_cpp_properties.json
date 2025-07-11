@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "name": "THOR_in_vivo_firmware_CMake",
+            "configurationProvider": "ms-vscode:cmake-tools",
+            "compileCommands": [
+                "${workspaceFolder}/THOR_in_vivo_firmware_CMake_cmake/build/compile_commands.json"
+            ],
+            "defines": [],
+            "compilerPath": "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/arm-none-eabi-gcc",
+        }
+    ],
+    "version": 4
+}
