@@ -2,4 +2,8 @@
     "cmake.sourceDirectory": "${workspaceFolder}/THOR_in_vivo_firmware_CMake_cmake",
     "cmake.buildDirectory": "${workspaceFolder}/THOR_in_vivo_firmware_CMake_cmake/build",
     "cmake.generator": "Ninja",
+    "idf.pythonInstallPath": "c:\\Users\\Xinye\\.espressif\\tools\\idf-python\\3.11.2\\python.exe",
+    "files.associations": {
+        "efr32bg27c320f768gj39.h": "c"
+    },
 }

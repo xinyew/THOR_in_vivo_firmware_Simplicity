@@ -8,6 +8,7 @@ project(
 	LANGUAGES C CXX ASM
 )
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 # Include the definition of the slc_THOR_in_vivo_firmware_CMake target,
 # which contains the content of the SLC project
 include(THOR_in_vivo_firmware_CMake.cmake)
