@@ -4,6 +4,7 @@
     "files.associations": {
         "app.h": "c",
         "sl_component_catalog.h": "c",
-        "ad5940.h": "c"
+        "ad5940.h": "c",
+        "efr32bg27c320f768gj39.h": "c"
     }
 }
