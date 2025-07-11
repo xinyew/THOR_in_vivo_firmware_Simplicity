@@ -4,7 +4,7 @@
             "name": "THOR_in_vivo_firmware_CMake",
             "configurationProvider": "ms-vscode.cmake-tools",
             "compileCommands": [
-                "${workspaceFolder}/THOR_in_vivo_firmware_CMake_cmake/build/compile_commands.json"
+                "${cmake.buildDirectory}/compile_commands.json"
             ]
         }
     ],
