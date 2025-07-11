@@ -6,4 +6,4 @@
 *.s37
 *.obj
 
-/THOR_in_vivo_firmware_CMake_cmake/build
+/THOR_in_vivo_firmware_CMake_tmp_cmake/build

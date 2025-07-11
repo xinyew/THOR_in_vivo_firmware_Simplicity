@@ -8,7 +8,7 @@
     "configurePresets": [
       {
         "name": "project",
-        "displayName": "Configure THOR_in_vivo_firmware_CMake",
+        "displayName": "Configure THOR_in_vivo_firmware_CMake_tmp",
         "generator": "Ninja Multi-Config",
         "binaryDir": "${sourceDir}/build",
         "toolchainFile": "${sourceDir}/toolchain.cmake",
@@ -20,10 +20,10 @@
     "buildPresets": [
       {
         "name": "default_config",
-        "displayName": "Build THOR_in_vivo_firmware_CMake",
+        "displayName": "Build THOR_in_vivo_firmware_CMake_tmp",
         "configurePreset": "project",
         "configuration": "default_config",
-        "targets": ["THOR_in_vivo_firmware_CMake"]
+        "targets": ["THOR_in_vivo_firmware_CMake_tmp"]
       }
     ],
     "workflowPresets": [
