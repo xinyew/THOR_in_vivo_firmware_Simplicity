@@ -1,6 +1,5 @@
 {
-    "idf.pythonInstallPath": "/opt/homebrew/anaconda3/bin/python3",
-    "cmake.sourceDirectory": "/Users/xinye/SimplicityStudio/v5_workspace/THOR_in_vivo_firmware_CMake/THOR_in_vivo_firmware_CMake_cmake",
+    "cmake.sourceDirectory": "${workspaceFolder}/THOR_in_vivo_firmware_CMake_cmake",
     "cmake.buildDirectory": "${workspaceFolder}/THOR_in_vivo_firmware_CMake_cmake/build",
     "cmake.generator": "Ninja",
 }
