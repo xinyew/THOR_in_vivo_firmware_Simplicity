@@ -27,7 +27,7 @@
 #endif // SL_CATALOG_KERNEL_PRESENT
 
 #include "efr32bg27c320f768gj39.h"
-#include "ad5940.h"
+//#include "ad5940.h"
 
 int main(void)
 {
@@ -52,7 +52,7 @@ int main(void)
     // Application process.
     app_process_action();
 
-    break;
+//    break;
 
 
 #if defined(SL_CATALOG_POWER_MANAGER_PRESENT)

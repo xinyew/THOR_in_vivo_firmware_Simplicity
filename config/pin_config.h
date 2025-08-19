@@ -149,6 +149,13 @@
 #define _PIN                                     0
 #endif
 
+#ifndef LED_PIN_PORT                            
+#define LED_PIN_PORT                             gpioPortB
+#endif
+#ifndef LED_PIN_PIN                             
+#define LED_PIN_PIN                              0
+#endif
+
 #ifndef AD5940_RST_PORT                         
 #define AD5940_RST_PORT                          gpioPortC
 #endif

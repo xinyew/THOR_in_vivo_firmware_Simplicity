@@ -19,12 +19,14 @@
 #include "sl_emlib_gpio_init_AD5940_INT_config.h"
 #include "app.h"
 #include <stdio.h>
+#include "sl_emlib_gpio_init_LED_config.h"
 
 
 
 /***************************************************************************//**
  * Initialize application.
  ******************************************************************************/
+volatile uint32_t ucInterrupted = 0;
 void ad5940int_handler (uint8_t intNo) {
   app_assert(intNo == 5, "Invalid interrupt number: %d", intNo);  // Check for interrupt 5
   ucInterrupted = 1;
@@ -51,7 +53,9 @@ void app_init(void)
 void app_process_action(void)
 {
 
-  sl_udelay_wait(20000);
+  sl_udelay_wait(2000000);
+  GPIO_PinOutToggle(SL_EMLIB_GPIO_INIT_LED_PORT,
+                     SL_EMLIB_GPIO_INIT_LED_PIN);
   AD5940_Init();
   AD5940_Set_Mux(0, true);
   AD5940_SWV_Main();
