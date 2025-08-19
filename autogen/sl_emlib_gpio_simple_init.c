@@ -4,6 +4,7 @@
 #include "sl_emlib_gpio_init_AD5940_RST_config.h"
 #include "sl_emlib_gpio_init_LED_config.h"
 #include "sl_emlib_gpio_init_MUX_EN_config.h"
+#include "sl_emlib_gpio_init_MagSwitch_config.h"
 #include "em_gpio.h"
 #include "em_cmu.h"
 
@@ -34,4 +35,9 @@ void sl_emlib_gpio_simple_init(void)
                   SL_EMLIB_GPIO_INIT_MUX_EN_PIN,
                   SL_EMLIB_GPIO_INIT_MUX_EN_MODE,
                   SL_EMLIB_GPIO_INIT_MUX_EN_DOUT);
+
+  GPIO_PinModeSet(SL_EMLIB_GPIO_INIT_MAGSWITCH_PORT,
+                  SL_EMLIB_GPIO_INIT_MAGSWITCH_PIN,
+                  SL_EMLIB_GPIO_INIT_MAGSWITCH_MODE,
+                  SL_EMLIB_GPIO_INIT_MAGSWITCH_DOUT);
 }

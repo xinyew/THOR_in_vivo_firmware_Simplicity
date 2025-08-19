@@ -1,2 +1,3 @@
 #CRC Codes for initially generated config files -- do not modify!
 sl_emlib_gpio_init_LED_config.h=93034072
+sl_emlib_gpio_init_MagSwitch_config.h=1688177618

@@ -12,5 +12,6 @@
     <properties key="universalConfig.projectTypeIds" value="cmake"/>
     <properties key="projectCommon.importModeId" value="LINK_LIBRARIES"/>
     <properties key="universalConfig.compSelProjInstanceId" value="1752084994706"/>
+    <properties key="projectCommon.overwriteCopiedSources" value="false"/>
   </descriptors>
 </model:MDescriptors>

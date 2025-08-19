@@ -156,6 +156,13 @@
 #define LED_PIN_PIN                              0
 #endif
 
+#ifndef MagSwitch_PORT                          
+#define MagSwitch_PORT                           gpioPortB
+#endif
+#ifndef MagSwitch_PIN                           
+#define MagSwitch_PIN                            1
+#endif
+
 #ifndef AD5940_RST_PORT                         
 #define AD5940_RST_PORT                          gpioPortC
 #endif

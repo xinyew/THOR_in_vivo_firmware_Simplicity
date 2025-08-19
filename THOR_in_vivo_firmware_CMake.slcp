@@ -30,7 +30,7 @@ component:
 - {id: app_assert}
 - {id: app_log}
 - {id: device_init}
-- instance: [AD5940_CS, AD5940_INT, AD5940_RST, LED, MUX_EN]
+- instance: [AD5940_CS, AD5940_INT, AD5940_RST, LED, MUX_EN, MagSwitch]
   id: emlib_gpio_simple_init
 - {id: gpiointerrupt}
 - {id: iostream_swo}

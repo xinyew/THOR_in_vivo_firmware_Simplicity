@@ -20,6 +20,7 @@
 #include "app.h"
 #include <stdio.h>
 #include "sl_emlib_gpio_init_LED_config.h"
+#include "sl_emlib_gpio_init_MagSwitch_config.h"
 
 
 
@@ -41,9 +42,24 @@ void ad5940int_init() {
   printf("Hello AD5940-Build Time:%s\n",__TIME__);
 }
 
+void magSwitchInt_handler (uint8_t intNo) {
+  app_assert(intNo == 1, "Invalid magSwitch interrupt number: %d", intNo);
+  printf("Mag Switch State Changed to %d \n", GPIO_PinInGet(SL_EMLIB_GPIO_INIT_MAGSWITCH_PORT, SL_EMLIB_GPIO_INIT_MAGSWITCH_PIN));
+  GPIO_PinOutToggle(SL_EMLIB_GPIO_INIT_LED_PORT,
+                     SL_EMLIB_GPIO_INIT_LED_PIN);
+}
+
+void magSwitchInt_init() {
+  GPIOINT_CallbackRegister(1, magSwitchInt_handler);  // Use interrupt 1 for PB1
+  // TODO
+  GPIO_ExtIntConfig(SL_EMLIB_GPIO_INIT_MAGSWITCH_PORT, SL_EMLIB_GPIO_INIT_MAGSWITCH_PIN, 1, true, true, true);  // Use interrupt 1
+  GPIO_IntEnable(1 << 1);  // Enable interrupt 1
+}
+
 void app_init(void)
 {
   ad5940int_init();
+  magSwitchInt_init();
 
 }
 
